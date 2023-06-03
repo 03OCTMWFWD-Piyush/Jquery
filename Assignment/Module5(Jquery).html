@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module :5 Jquery</title>
+    <style>
+        * {
+            /* margin:0; */
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 1px solid black; */
+            font-family: sans-serif;
+        }
+        h1{
+            text-align: center;
+            background-color: brown;
+            color:darkturquoise;
+        }
+        h2{
+            background-color:crimson;
+            text-align: center;
+        font-size: 25px;
+
+        }
+        .container{
+            width: 90%;
+            margin: auto;
+        }
+        p{
+            font-size: 20px;
+            color: brown;
+        }
+
+        li{
+            font-size: 20px;
+        }
+        #jquery{
+            background-color:aqua;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script> 
+
+</head>
+<body>
+
+    <h1>MODULE: 5 (JQuery Basic, Effects & Advance)</h1>  
+    <hr>
+        <div class="container">
+            <div id="jquery">
+            <h2>(1) What is JQuery? </h2>
+            <p>The purpose of jQuery is to make it much easier to use JavaScript on your website. </p> 
+             <p> jQuery is a lightweight, "write less, do more", JavaScript library.The purpose of jQuery is to make it much easier to use JavaScript on your website.</p>
+             <p> jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+
+             </p>   
+        </div>
+        <hr>
+        <div id="jquery">
+            <h2>(2) How to Apply CSS Using JQuery, How to Add Class and Remove Class in JQuery,
+                JQuery Animation? </h2>
+            <p> Apply CSS Using JQuery :
+
+                There are many types of CSS methods, which means that each method has the same name but takes different parameters.</p>
+             <p>We will discuss only two methods <br><br>
+                one of which is used to change a single CSS property - 
+
+                        this method only takes 2 parameters, namely the property name and the value.
+                            Syntax : $().css(propertyname, value); <br><br>
+
+                            The other is used to change multiple CSS properties simultaneously. - <br><br>
+                            With the second method, you can pass a JSON string object as a parameter that you want to apply to the HTML element.
+                            JSON string objects contain CSS properties along with their values.
+                            Syntax : $().css(properties); </p>   
+            <p> jQuery - Get and Set CSS Classes <br><br>
+                addClass() - Adds one or more classes to the selected elements.
+                removeClass() - Removes one or more classes from the selected elements.
+                toggleClass() - Toggles between adding/removing classes from the selected elements.
+                css() - Sets or returns the style attribute.
+                </p>    
+              <p>
+                JQuery Animation : <br>
+
+               1. we can produce various types of animation using the animate() method in jQuery. <br>
+                2.This method can produce simple to complex animation in the web <br>
+                3.Using animation, we can change the properties of HTML elements such as background colour, changing border styles, changing navigation properties, formatting the font properties, etc.
+
+              </p>  
+            </div>
+        <hr> 
+        <div id="jquery">
+            <h2>(3) How to create slider with animation?</h2>
+            <p>To create slider with jQuery, follow the following steps : <br><br>
+
+                1. Create the Base Mark Up. What we need is a series of images in an unordered list <br>
+                2. Add jQuery Code to hide unfocused images <br>
+                3. Add “Next” and “Previous” Buttons <br>
+                4. sAdd the .Animate() Method <br>
+
+            </p>
+            <p>We can add various effects using jQuery such as hide/show, fading effects, animation, call back and many more to create a slider. <br><br>
+                The jQuery contains the library of several functions that provide techniques for adding animation to a web page. These include simple animation, standard animations. <br><br>
+                for slider with animation : we can produce various types of animation using the animate() method in jQuery. <br><br>
+                The animate option when set to true will create an animation effect when you directly click at any point on the slider’s axis </p>
+                <p>Syntax :     
+
+                    $  ( " .selector " )  .slider ( 
+                    { animate : value }
+                 ) ;  <br><br>
+                 Parameters: This option accepts three parameters as discussed below:</p>
+                 <p>
+                   1. boolean: <br>
+                     If set to true, the slider will be animated. By default, the value is false <br><br>
+                    2. string: <br>
+                     The string value used to set the speed of the slider cursor. The available values are slow, normal, fast. <br><br>
+                    3. number: <br>                     
+                     The duration of the animation in milliseconds.
+
+                 </p>
+
+        </div> 
+
+
+
+
+
+        </div>
+
+
+    
+
+
+
+
+</body>
+</html>

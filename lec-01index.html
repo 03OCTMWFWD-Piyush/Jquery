@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    <style>
+        p {
+            padding: 20px;
+            font: 20px sans-sarif;
+            background: teal;
+        }
+    </style>
+    
+
+
+</head>
+<body>
+    <!-- <h1 class="heading">Welcome to jquery programming</h1> -->
+    <!-- <div>
+    
+        <h2 id="head">This is heading2</h2>  
+        <a href="#">Google.com</a>  
+
+
+        <p>
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, ...
+        </p>
+
+        <p>clck me if you want to learn Html Programming</p>
+        <p>clck me if you want to learn css Programming</p>
+        <p>clck me if you want to learn javascript Programming</p>
+    </div> -->
+    <!-- <p class="paragraph">This is paragraph1</p>
+    <p class="paragraph">This is paragraph2</p>
+    <p id="para">This is paragraph3</p> -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus?</p>
+    <button type="submit" id="btn">hide</button>
+</body>
+</html>
+<script>
+
+
+// jQuery Selector:-
+// class
+// id
+// Element
+// Universal
+
+// $("selectors").functions
+
+// $(document).ready(function() {
+    // alert("Hello Jquery");
+// });
+
+// Element Selector;
+// $("h1").css("color","red");
+
+// class selector:
+// $(".heading").css("color","teal");   
+
+// id selector:
+// $("#head").css("color","coral");
+
+// universal selector:
+// $("*").css("color","coral");
+
+// $("p").hide();
+
+// jQuery("p").css("color","red");
+// $("paragraph").hide();
+// $("paragraph").hide();
+// $("btn").click(function(){
+//     $("paragraph").hide();
+// });
+
+// $('#btn').click(function(){
+//     $('p').hide();
+// });
+
+$('#btn').click(function(){
+    $('p').slideUp();
+});
+
+
+
+
+</script>
